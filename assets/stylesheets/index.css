@@ -15,10 +15,10 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
 }
 a{
     text-decoration: none;
+    color: white;
 }
 header{
     background: linear-gradient(180deg, #11131b ,transparent);
