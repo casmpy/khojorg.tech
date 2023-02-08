@@ -46,10 +46,11 @@ header{
     font-size: 4.5vw;
 }
 .register-btn{
+    margin-left: 0vw;
     position: relative;
-    left: 18vw;
+    left: 19vw;
     height: 4vw;
-    width: 18vw;
+    width: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +65,7 @@ body{
 .anime{
     position: absolute;
     top: 13vw;
-    left: 22vw;
+    left: 25vw;
     z-index: -3;
     height: 32vw;
     width: 70vw;
