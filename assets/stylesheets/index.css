@@ -1,0 +1,114 @@
+@font-face{
+    font-family: 'osakeregular';
+    src: url('../fonts/osake.regular-webfont.woff2') format('woff2'),
+         url('../fonts/osake.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'harukaze';
+    src: url('../fonts/harukazesolid-webfont.woff2') format('woff2'),
+         url('../fonts/harukazesolid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: linear-gradient(180deg, #11131b ,transparent);
+    padding: 3vw 0vw;
+    position: fixed;
+    top: 0vw;
+    backdrop-filter: blur(10px);
+    z-index: 3;
+    width: 100vw;
+    font-size: 1.3vw;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'harukaze', cursive;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10vw;
+}
+.nav-item{
+    font-size: 4.5vw;
+}
+.register-btn{
+    position: relative;
+    left: 18vw;
+    height: 4vw;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-btn > .nav-item{
+    color: coral;
+}
+body{
+    background-color: #11131b;
+    overflow-x: hidden;
+}
+.anime{
+    position: absolute;
+    top: 13vw;
+    left: 22vw;
+    z-index: -3;
+    height: 32vw;
+    width: 70vw;
+}
+.anime > .stroke{
+    position: relative;
+    z-index: -2;
+    height: 30vw;
+    width: 55vw;
+    object-fit: contain;
+}
+.anime > h2{
+    position: relative;
+    bottom: 21vw;
+    left: 8vw;
+    z-index: 1;
+    font-size: 10vw;
+    color: white;
+    font-family: 'osakeregular', cursive;
+}
+.anime > .goku{
+    position: relative;
+    bottom: 42vw;
+    left: 47vw;
+    height: 33vw;
+    width: auto;
+    object-fit: contain;
+    z-index: 2;
+}
+.anime > .gojo{
+    position: relative;
+    bottom: 42vw;
+    left: 21vw;
+    height: 33vw;
+    width: auto;
+    object-fit: contain;
+    z-index: -2;
+}
+.anime > .levi{
+    position: relative;
+    bottom: 45vw;
+    right: 48vw;
+    height: 31vw;
+    width: auto;
+    object-fit: contain;
+    z-index: 1;
+}
