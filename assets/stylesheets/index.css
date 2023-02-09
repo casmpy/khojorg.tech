@@ -78,8 +78,8 @@ body{
     object-fit: contain;
 }
 .anime > h2{
-    position: relative;
-    bottom: 21vw;
+    position: absolute;
+    bottom: 13vw;
     left: 8vw;
     z-index: 1;
     font-size: 10vw;
@@ -87,8 +87,8 @@ body{
     font-family: 'osakeregular', cursive;
 }
 .anime > .goku{
-    position: relative;
-    bottom: 42vw;
+    position: absolute;
+    bottom: 0vw;
     left: 47vw;
     height: 33vw;
     width: auto;
@@ -96,18 +96,18 @@ body{
     z-index: 2;
 }
 .anime > .gojo{
-    position: relative;
-    bottom: 42vw;
-    left: 21vw;
+    position: absolute;
+    bottom: 0vw;
+    left: 34vw;
     height: 33vw;
     width: auto;
     object-fit: contain;
     z-index: -2;
 }
 .anime > .levi{
-    position: relative;
-    bottom: 45vw;
-    right: 48vw;
+    position: absolute;
+    bottom: 3vw;
+    right: 55vw;
     height: 31vw;
     width: auto;
     object-fit: contain;
