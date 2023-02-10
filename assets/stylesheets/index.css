@@ -1,115 +1,223 @@
 @font-face{
-    font-family: 'osakeregular';
-    src: url('../fonts/osake.regular-webfont.woff2') format('woff2'),
-         url('../fonts/osake.regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'osakeregular';
+  src: url('../fonts/osake.regular-webfont.woff2') format('woff2'),
+       url('../fonts/osake.regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face{
-    font-family: 'harukaze';
-    src: url('../fonts/harukazesolid-webfont.woff2') format('woff2'),
-         url('../fonts/harukazesolid-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'harukaze';
+  src: url('../fonts/harukazesolid-webfont.woff2') format('woff2'),
+       url('../fonts/harukazesolid-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 header{
-    background: linear-gradient(180deg, #11131b ,transparent);
-    padding: 3vw 0vw;
-    position: fixed;
-    top: 0vw;
-    backdrop-filter: blur(10px);
-    z-index: 3;
-    width: 100vw;
-    font-size: 1.3vw;
+  background: linear-gradient(180deg, #11131b ,transparent);
+  padding: 0.5vw 0vw;
+  position: fixed;
+  top: 0vw;
+  backdrop-filter: blur(10px);
+  z-index: 3;
+  width: 100vw;
+  font-size: 1.3vw;
 }
 .navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'harukaze', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'harukaze', cursive;
 }
 .nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10vw;
 }
 .nav-item{
-    font-size: 4.5vw;
+  font-size: 4.5vw;
+  color: white;
 }
 .register-btn{
-    margin-left: 0vw;
-    position: relative;
-    left: 19vw;
-    height: 4vw;
-    width: 10vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-left: 0vw;
+  position: relative;
+  left: 19vw;
+  height: 4vw;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .register-btn > .nav-item{
-    color: coral;
+  color: coral;
 }
 body{
-    background-color: #11131b;
-    overflow-x: hidden;
+  background-color: #11131b;
+  overflow-x: hidden;
+  position: relative;
+  z-index: -10;
+  min-height: 130vw;
 }
 .anime{
-    position: absolute;
-    top: 13vw;
-    left: 25vw;
-    z-index: -3;
-    height: 32vw;
-    width: 70vw;
+  position: absolute;
+  top: 15vw;
+  left: 25vw;
+  z-index: -3;
+  height: 32vw;
+  width: 70vw;
 }
 .anime > .stroke{
-    position: relative;
-    z-index: -2;
-    height: 30vw;
-    width: 55vw;
-    object-fit: contain;
+  position: relative;
+  z-index: -2;
+  height: 30vw;
+  width: 55vw;
+  object-fit: contain;
 }
 .anime > h2{
-    position: absolute;
-    bottom: 13vw;
-    left: 8vw;
-    z-index: 1;
-    font-size: 10vw;
-    color: white;
-    font-family: 'osakeregular', cursive;
+  position: absolute;
+  bottom: 12.5vw;
+  left: 8vw;
+  z-index: 1;
+  font-size: 10vw;
+  color: white;
+  font-family: 'osakeregular', cursive;
 }
 .anime > .goku{
-    position: absolute;
-    bottom: 0vw;
-    left: 47vw;
-    height: 33vw;
-    width: auto;
-    object-fit: contain;
-    z-index: 2;
+  position: absolute;
+  bottom: 0vw;
+  left: 47vw;
+  height: 33vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 2;
 }
 .anime > .gojo{
-    position: absolute;
-    bottom: 0vw;
-    left: 34vw;
-    height: 33vw;
-    width: auto;
-    object-fit: contain;
-    z-index: -2;
+  position: absolute;
+  bottom: 0vw;
+  left: 34vw;
+  height: 33vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -2;
 }
 .anime > .levi{
-    position: absolute;
-    bottom: 3vw;
-    right: 55vw;
-    height: 31vw;
-    width: auto;
-    object-fit: contain;
-    z-index: 1;
+  position: absolute;
+  bottom: 3vw;
+  right: 55vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+.anicon{
+  position: absolute;
+  top: 48vw;
+  left: 22vw;
+  z-index: -3;
+  height: 32vw;
+  width: 70vw;
+}
+.anicon > .konoyarro{
+  position: absolute;
+  top: 5vw;
+  right: 57vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+.anicon > .shinobu{
+  position: absolute;
+  top: 5vw;
+  right: 8vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+.anicon > .guts{
+  position: absolute;
+  top: 5vw;
+  right: 62vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+.anicon > .roger{
+  position: absolute;
+  top: 5vw;
+  right: 2vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+footer{
+  position: absolute;
+  background-color: #212231;
+  top: 90vw;
+  left: 6.5vw;
+  width: 85vw;
+  height: 30vw;
+  border-radius: 4vw;
+  color: #f6f6f9;
+  z-index: -5;
+}
+footer > .kakashi{
+  position: absolute;
+  top: -1vw;
+  left: 69vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+footer > .cowboy{
+  position: absolute;
+  top: 8vw;
+  left: -2vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -2;
+}
+footer h5{
+  position: absolute;
+  font-size: 2.8vw;
+  top: 2vw;
+  left: 15vw;
+  width: 30vw;
+  line-height: 3.4vw;
+}
+footer p{
+  position: absolute;
+  font-size: 1.3vw;
+  width: 27vw;
+  top: 10vw;
+  left: 15vw;
+  color: #b3aca2;
+}
+.right{
+  left: 41vw;
+  width: 30vw;
+  top: 18vw;
+}
+.p-right{
+  left: 41vw;
+  top: 22vw;
+}
+.contact{
+  top: 7vw;
+  left: 54vw;
+  font-size: 2vw;
+  color: #88bfff;
 }
