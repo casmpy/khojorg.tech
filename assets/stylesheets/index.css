@@ -65,6 +65,7 @@ body{
   position: relative;
   z-index: -10;
   min-height: 130vw;
+  cursor: none;
 }
 .anime{
   position: absolute;
@@ -73,6 +74,7 @@ body{
   z-index: -3;
   height: 32vw;
   width: 70vw;
+  isolation: isolate;
 }
 .anime > .stroke{
   position: relative;
@@ -220,4 +222,22 @@ footer p{
   left: 54vw;
   font-size: 2vw;
   color: #88bfff;
+}
+.cursor{
+  position: fixed;
+  background-color: white;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+body:hover ~ .cursor{
+  visibility: visible;
+  mix-blend-mode: normal;
+}
+.anime:hover ~ .cursor{
+  visibility: visible;
+  transform: scale(5);
+  mix-blend-mode: difference;
 }
