@@ -7,4 +7,3 @@ document.addEventListener('mousemove', (event) => {
     cursor.style.left =  x - scrollLeft + 'px';
     cursor.style.top = y - scrollTop + 'px';
 })
-document.querySelector('.nav-item').onselectstart = () => false;
