@@ -302,7 +302,10 @@ body{
   transform: scaleY(-1);
   opacity: 60%;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, right bottom, right top, from(transparent), to(rgba(17, 19, 27, 0.4)));
+  mask-image: linear-gradient(transparent -6%, white 186%);
+  -moz-mask-image: linear-gradient(transparent -6%, white 186%);
+  -webkit-mask-image: linear-gradient(transparent -6%, white 186%);
+  -ms-mask-image: linear-gradient(transparent -6%, white 180%);
 }
 .reflection > .roger{
   position: absolute;
@@ -457,6 +460,13 @@ body{
   width: auto;
   object-fit: contain;
   z-index: 1;
+}
+.ending{
+  position: absolute;
+  top: 114vw;
+  left: 10vw;
+  color: #f6f6f9;
+  font-size: 1.9vw;
 }
 footer{
   position: absolute;
