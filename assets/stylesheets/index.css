@@ -71,7 +71,7 @@ body{
   overflow-x: hidden;
   position: relative;
   z-index: -10;
-  min-height: 130vw;
+  min-height: 160vw;
   cursor: none;
 }
 .anime{
@@ -128,8 +128,8 @@ body{
 }
 .anicon{
   position: absolute;
-  top: 48vw;
-  left: 22vw;
+  top: 70vw;
+  left: 21vw;
   z-index: -3;
   height: 32vw;
   width: 70vw;
@@ -141,16 +141,16 @@ body{
   height: 31vw;
   width: auto;
   object-fit: contain;
-  z-index: 1;
+  z-index: 0;
 }
 .anicon > .shinobu{
   position: absolute;
-  top: 5vw;
-  right: 8vw;
-  height: 31vw;
+  top: 8vw;
+  right: 6vw;
+  height: 29vw;
   width: auto;
   object-fit: contain;
-  z-index: 1;
+  z-index: 0;
 }
 .anicon > .guts{
   position: absolute;
@@ -168,7 +168,7 @@ body{
   height: 31vw;
   width: auto;
   object-fit: contain;
-  z-index: 1;
+  z-index: -1;
 }
 .anicon > .yami{
   position: absolute;
@@ -177,7 +177,7 @@ body{
   height: 31vw;
   width: auto;
   object-fit: contain;
-  z-index: -1;
+  z-index: -3;
 }
 .anicon > .urahara{
   position: absolute;
@@ -186,12 +186,282 @@ body{
   height: 31vw;
   width: auto;
   object-fit: contain;
+  z-index: -1;
+}
+.anicon > .edward{
+  position: absolute;
+  top: 8vw;
+  right: 48vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
   z-index: 0;
+}
+.anicon > .madara{
+  position: absolute;
+  top: -1vw;
+  right: 14vw;
+  height: 38vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.anicon > .hashirama{
+  position: absolute;
+  top: 5vw;
+  right: 43vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.anicon > .suna{
+  position: absolute;
+  top: 5vw;
+  right: 29vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.anicon > .saitama{
+  position: absolute;
+  top: 6vw;
+  right: 51vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.anicon > .dabi{
+  position: absolute;
+  top: 6vw;
+  right: 43vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 3;
+  transform: rotateY(0.5turn);
+}
+.anicon > .jojo{
+  position: absolute;
+  top: 5vw;
+  right: -6.4vw;
+  height: 32vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -4;
+}
+.anicon > .arthur{
+  position: absolute;
+  top: 7vw;
+  right: 17vw;
+  height: 30vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -4;
+}
+.anicon > .giglamesh{
+  position: absolute;
+  top: 7vw;
+  right: -4vw;
+  height: 30vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.anicon > .thorfinn{
+  position: absolute;
+  top: 11vw;
+  right: 19vw;
+  height: 30vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.anicon > .lelouch{
+  position: absolute;
+  top: 4vw;
+  right: 33vw;
+  height: 36vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.reflection{
+  position: absolute;
+  top: 106vw;
+  left: 0vw;
+  z-index: -6;
+  height: 5vw;
+  width: 100vw;
+  -webkit-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  transform: scaleY(-1);
+  opacity: 60%;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, right bottom, right top, from(transparent), to(rgba(17, 19, 27, 0.4)));
+}
+.reflection > .roger{
+  position: absolute;
+  top: -26vw;
+  right: 11vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.reflection > .konoyarro{
+  position: absolute;
+  top: -26vw;
+  right: 66vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 0;
+}
+.reflection > .guts{
+  position: absolute;
+  top: -25vw;
+  right: 74vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.reflection > .shinobu{
+  position: absolute;
+  top: -24vw;
+  right: 15vw;
+  height: 29vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 0;
+}
+.reflection > .yami{
+  position: absolute;
+  top: -26vw;
+  right: 1vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -3;
+}
+.reflection > .urahara{
+  position: absolute;
+  top: -25vw;
+  right: 71vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.reflection > .edward{
+  position: absolute;
+  top: -23vw;
+  right: 57vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 0;
+}
+.reflection > .madara{
+  position: absolute;
+  top: -33vw;
+  right: 23vw;
+  height: 38vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.reflection > .hashirama{
+  position: absolute;
+  top: -25vw;
+  right: 52vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.reflection > .suna{
+  position: absolute;
+  top: -26vw;
+  right: 38vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.reflection > .saitama{
+  position: absolute;
+  top: -23vw;
+  right: 60vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+.reflection > .dabi{
+  position: absolute;
+  top: -25vw;
+  right: 52vw;
+  height: 31vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 3;
+  transform: rotateY(0.5turn);
+}
+.reflection > .jojo{
+  position: absolute;
+  top: -28vw;
+  right: 2.6vw;
+  height: 32vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -4;
+}
+.reflection > .arthur{
+  position: absolute;
+  top: -25vw;
+  right: 26.6vw;
+  height: 30vw;
+  width: auto;
+  object-fit: contain;
+  z-index: -6;
+}
+.reflection > .giglamesh{
+  position: absolute;
+  top: -26vw;
+  right: 5vw;
+  height: 30vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+.reflection > .thorfinn{
+  position: absolute;
+  top: -22vw;
+  right: 28vw;
+  height: 30vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
+}
+.reflection > .lelouch{
+  position: absolute;
+  top: -23vw;
+  right: 43vw;
+  height: 30vw;
+  width: auto;
+  object-fit: contain;
+  z-index: 1;
 }
 footer{
   position: absolute;
   background-color: #212231;
-  top: 90vw;
+  top: 120vw;
   left: 6.5vw;
   width: 85vw;
   height: 30vw;
