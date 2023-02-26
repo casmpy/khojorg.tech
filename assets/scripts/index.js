@@ -16,6 +16,6 @@ function mouse_visible(){
 $(document).ready(function (){
     $(window).on('load', function() {
         $('#loader').fadeOut();
-        $('#preloader').delay(350).fadeOut('slow'); 
+        $('#preloader').delay(100).fadeOut('slow'); 
     })
 })
