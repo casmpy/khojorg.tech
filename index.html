@@ -9,25 +9,14 @@
     <script src="assets/scripts/index.js"></script>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="nav">
-                <a href="#" class="nav-item" id="active">HOME</a>
-                <a href="#" class="nav-item">ABOUT</a>
-                <a href="#" class="nav-item">CONTACT</a>
-            </div>
-            <div class="register-btn">
-                <a href="#" class="nav-item">REGISTER</a>
-            </div>
-        </div>
-    </header>
-    <div class="anime">
+    <div class="anime" onmouseenter="mouse_visible();" onmouseover="mouse_visible();" onmouseout="mouse_hide();" onmousewheel="mouse_hide();">
         <img src="assets/images/stroke.png" alt="stroke" class="stroke">
         <h2 class="anime-heading">Anime!</h2>
         <img src="assets/images/goku.webp" alt="goku" class="goku">
         <img src="assets/images/gojo.png" alt="gojo" class="gojo">
         <img src="assets/images/LEVI.png" alt="levi" class="levi">
     </div>
+    
     <div class="anicon">
         <img class="roger" alt="roger" src="assets/images/roger.png"/>
         <img class="guts" alt="guts" src="assets/images/guts.webp"/>
@@ -78,6 +67,9 @@
         <p>Be the first to ask, be the first to let us know. We are always available to attend to you.</p>
         <a role="button" href="#"><h5 class="contact">Contact Us</h5></a>
     </footer>
-    <div class="cursor"></div>
+    <div id="cursor" class="cursor"></div>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
 </body>
 </html>

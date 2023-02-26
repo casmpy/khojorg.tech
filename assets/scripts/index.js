@@ -7,3 +7,16 @@ document.addEventListener('mousemove', (event) => {
     cursor.style.left =  x - scrollLeft + 'px';
     cursor.style.top = y - scrollTop + 'px';
 })
+function mouse_hide(){
+    document.getElementById('cursor').style.visibility = 'hidden';
+}
+function mouse_visible(){
+    document.getElementById('cursor').style.visibility = 'visible';
+}
+$(document).ready(function (){
+    $(window).on('load', function() {
+        $('#status').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow'); 
+        $('body').delay(350).css({'overflow':'visible'});
+    })
+})
