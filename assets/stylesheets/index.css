@@ -517,8 +517,8 @@ body:hover ~ .cursor{
   z-index: 99;
 }
 .loader {
-  height: fit-content;
-  width: fit-content;
+  height: 10vw;
+  width: 10vw;
   background-image: url('../images/loading.gif');
   position: absolute;
   top: 50%;
