@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AniCon</title>
     <link rel="stylesheet" href="assets/stylesheets/index.css">
-    <script src="assets/scripts/index.js"></script>
 </head>
 <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/scripts/index.js"></script>
     <div class="anime" onmouseenter="mouse_visible();" onmouseover="mouse_visible();" onmouseout="mouse_hide();" onmousewheel="mouse_hide();">
         <img src="assets/images/stroke.png" alt="stroke" class="stroke">
         <h2 class="anime-heading">Anime!</h2>
@@ -69,7 +70,7 @@
     </footer>
     <div id="cursor" class="cursor"></div>
     <div id="preloader">
-        <div class="loader"></div>
+        <div class="loader" id="loader"></div>
     </div>
 </body>
 </html>
