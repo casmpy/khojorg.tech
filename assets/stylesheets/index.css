@@ -52,7 +52,8 @@ header{
   align-items: center;
   justify-content: center;
   column-gap: 10vw;
-  left: 1vw;
+  left: -4vw;
+  position: relative;
 }
 .nav-item{
   font-size: 7.5vw;
@@ -62,7 +63,7 @@ header{
 .register-btn{
   margin-left: 0vw;
   position: relative;
-  left: 12vw;
+  left: 6vw;
   height: 4vw;
   width: 10vw;
   display: flex;
@@ -79,7 +80,6 @@ header{
 body{
   background-color: #11131b;
   overflow-x: hidden;
-  overflow-y: scroll;
   position: relative;
   z-index: -10;
   min-height: 160vw;
@@ -173,28 +173,35 @@ body{
   overflow-y: hidden;
   width: 100vw;
   height: 120vw;
-  left: -5vw;
+  left: 2vw;
   display: flex;
   flex-direction: column;
 }
 .venue{
   position: relative;
   top: 27vw;
-  left: 10vw;
+  left: 3vw;
+  overflow-x: hidden;
+}
+.venue:target{
+  display: block;
 }
 .venue > .heading{
   color: #f6f6f9;
   font-size: 14vw;
   font-family: 'Harukaze', sans-serif;
   font-weight: 200;
+  position: relative;
+  left: 5vw;
+  top: 7vw;
 }
 .venue > .stroke{
   height: 15vw;
   width: 20vw;
   object-fit: contain;
   position: relative;
-  top: 19vw;
-  left: -2vw;
+  top: 26vw;
+  left: 2vw;
   z-index: -1;
 }
 .details{
@@ -330,11 +337,11 @@ body{
 }
 .anicon{
   position: absolute;
-  top: 185vw;
+  top: 195vw;
   left: 21vw;
   z-index: -3;
   height: 32vw;
-  width: 70vw;
+  width: 68vw;
 }
 .anicon > .konoyarro{
   position: absolute;
@@ -490,10 +497,29 @@ body{
   object-fit: contain;
   z-index: -1;
 }
+.sk{
+  position: relative;
+  top: 25vw;
+  left: 14vw;
+  color: white;
+}
+.sk > a{
+  font-family: 'harukaze', cursive;
+  font-size: 8vw;
+}
+.sk > .stroke{
+  height: 15vw;
+  width: 26vw;
+  object-fit: contain;
+  position: relative;
+  top: 7vw;
+  left: 23vw;
+  z-index: -1;
+}
 .reflection{
   position: absolute;
-  top: 221vw;
-  left: 0vw;
+  top: 231vw;
+  left: -2vw;
   z-index: -6;
   height: 5vw;
   width: 100vw;
@@ -665,7 +691,7 @@ body{
 }
 .ending{
   position: absolute;
-  top: 229vw;
+  top: 239vw;
   left: 10vw;
   color: #f6f6f9;
   font-size: 1.9vw;
@@ -673,7 +699,7 @@ body{
 footer{
   position: absolute;
   background-color: #212231;
-  top: 236vw;
+  top: 246vw;
   left: 6.5vw;
   width: 85vw;
   height: 30vw;
