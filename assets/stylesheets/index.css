@@ -98,6 +98,7 @@ body{
   color: #f6f6f9;
   font-size: 13vw;
   font-family: 'Harukaze', sans-serif;
+  font-weight: 100;
 }
 .about > .stroke{
   height: 15vw;
