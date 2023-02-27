@@ -30,17 +30,64 @@ a{
 a:hover {
   color: #535bf2;
 }
+header{
+  background: linear-gradient(180deg, #11131b ,transparent);
+  padding: 0.5vw 0vw;
+  position: fixed;
+  top: 0vw;
+  backdrop-filter: blur(10px);
+  z-index: 3;
+  width: 100vw;
+  font-size: 1.3vw;
+  overflow-x: hidden;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'harukaze', cursive;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10vw;
+  left: 1vw;
+}
+.nav-item{
+  font-size: 7.5vw;
+  color: white;
+  font-family: 'harukaze', cursive;
+}
+.register-btn{
+  margin-left: 0vw;
+  position: relative;
+  left: 12vw;
+  height: 4vw;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'harukaze', cursive;
+}
+.register-btn > .nav-item{
+  color: coral;
+}
+.register-btn > .nav-item:hover{
+  color: red;
+}
 body{
   background-color: #11131b;
   overflow-x: hidden;
-  overflow-y: visible;
+  overflow-y: scroll;
   position: relative;
   z-index: -10;
   min-height: 160vw;
+  width: 100vw;
 }
 .anime{
   position: absolute;
-  top: 8vw;
+  top: 15vw;
   left: 25vw;
   z-index: -3;
   height: 32vw;
@@ -57,7 +104,7 @@ body{
 .anime > h2{
   position: absolute;
   bottom: 12.5vw;
-  left: 8vw;
+  left: 3vw;
   z-index: 1;
   font-size: 10vw;
   color: white;
@@ -120,6 +167,16 @@ body{
   left: 5vw;
   top: 1.5vw;
 } */
+.det{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100vw;
+  height: 120vw;
+  left: -5vw;
+  display: flex;
+  flex-direction: column;
+}
 .venue{
   position: relative;
   top: 27vw;
@@ -145,9 +202,12 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  top: 6vw;
+  top: -14vw;
   position: relative;
-  left: 7vw;
+  left: 6vw;
+}
+#first{
+  top: 8vw;
 }
 .details > .box{
   display: flex;
@@ -168,7 +228,7 @@ body{
   font-size: 6vw;
   position: relative;
   top: -12vw;
-  left: -7vw;
+  left: 0vw;
 }
 .details > p{
   color: #b3aca2;
@@ -192,24 +252,85 @@ body{
   width: 83%;
   background-color: #535bf2;
 }
-#d2{
+.details2 > .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3.5vw;
+  height: 13vw;
+  width: 27vw;
+  position: relative;
   top: 1vw;
+  left: -42vw;
+  border-radius: 4vw 4vw 0 0;
+  background-color: #535bf2;
 }
-#d2 > .box{
+.details2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  top: -3vw;
+  position: relative;
+  left: 8vw;
+}
+.details2 > h1{
+  color: white;
+  font-size: 6vw;
+  position: relative;
+  top: -12vw;
+  left: -7vw;
+}
+.details2 > p{
+  color: #b3aca2;
+  font-size: 3vw;
+  position: relative;
+  top: -12vw;
+  left: -5vw;
+}
+.details2 > h2{
+  color: white;
+  font-size: 2vw;
+  position: relative;
+  top: -14vw;
+  left: -42vw;
+}
+.details2 > .line{
+  position: relative;
+  top: -13vw;
+  right: 14vw;
+  height: 1vw;
+  width: 83%;
+  background-color: #535bf2;
+}
+.details2 > .box{
   left: 14vw;
 }
-#d2 > h1{
-  left: -20vw;
+.details2 > h1{
+  left: -29vw;
 }
-#d2 > p{
-  left: -22vw;
+.details2 > p{
+  left: -21vw;
 }
-#d2 > h2{
-  left: 13vw;
+.details2 > h2{
+  left: 15vw;
+}
+#fourth{
+  top: -25vw;
+}
+#fifth{
+  top: -36vw;
+}
+#sixth{
+  top: -48vw;
+}
+#seventh{
+  top: -60vw;
 }
 .anicon{
   position: absolute;
-  top: 125vw;
+  top: 185vw;
   left: 21vw;
   z-index: -3;
   height: 32vw;
@@ -371,7 +492,7 @@ body{
 }
 .reflection{
   position: absolute;
-  top: 161vw;
+  top: 221vw;
   left: 0vw;
   z-index: -6;
   height: 5vw;
@@ -544,7 +665,7 @@ body{
 }
 .ending{
   position: absolute;
-  top: 169vw;
+  top: 229vw;
   left: 10vw;
   color: #f6f6f9;
   font-size: 1.9vw;
@@ -552,7 +673,7 @@ body{
 footer{
   position: absolute;
   background-color: #212231;
-  top: 175vw;
+  top: 236vw;
   left: 6.5vw;
   width: 85vw;
   height: 30vw;
