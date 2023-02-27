@@ -19,8 +19,6 @@
   user-select: none;
   -moz-window-dragging: no-drag;
   -webkit-user-drag: none;
-  touch-action: none;
-  -ms-touch-action: none;
   font-family: 'Roboto', sans-serif;
 }
 a{
