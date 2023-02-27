@@ -89,7 +89,7 @@ body{
 }
 .anicon{
   position: absolute;
-  top: 70vw;
+  top: 82vw;
   left: 21vw;
   z-index: -3;
   height: 32vw;
@@ -251,7 +251,7 @@ body{
 }
 .reflection{
   position: absolute;
-  top: 106vw;
+  top: 118vw;
   left: 0vw;
   z-index: -6;
   height: 5vw;
@@ -424,7 +424,7 @@ body{
 }
 .ending{
   position: absolute;
-  top: 114vw;
+  top: 128vw;
   left: 10vw;
   color: #f6f6f9;
   font-size: 1.9vw;
@@ -432,7 +432,7 @@ body{
 footer{
   position: absolute;
   background-color: #212231;
-  top: 120vw;
+  top: 134vw;
   left: 6.5vw;
   width: 85vw;
   height: 30vw;
