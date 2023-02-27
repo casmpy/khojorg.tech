@@ -517,11 +517,11 @@ body:hover ~ .cursor{
   z-index: 99;
 }
 .loader {
-  height: 20vw;
-  width: 20vw;
-  background: url('../images/loading.gif');
+  height: 50vw;
+  width: 50vw;
+  background: url(../images/loading.gif);
   background-size: cover;
   position: absolute;
-  top: 30%;
-  left: 40%;
+  top: 20%;
+  left: 35%;
 }
