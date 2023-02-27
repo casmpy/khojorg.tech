@@ -12,6 +12,7 @@
   font-weight: normal;
   font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@
   -webkit-user-drag: none;
   touch-action: none;
   -ms-touch-action: none;
+  font-family: 'Roboto', sans-serif;
 }
 a{
   text-decoration: none;
@@ -86,6 +88,25 @@ body{
   width: auto;
   object-fit: contain;
   z-index: 1;
+}
+.about{
+  position: relative;
+  top: 27vw;
+  left: 10vw;
+}
+.about > .heading{
+  color: #f6f6f9;
+  font-size: 13vw;
+  font-family: 'Harukaze', sans-serif;
+}
+.about > .stroke{
+  height: 15vw;
+  width: 20vw;
+  object-fit: contain;
+  position: relative;
+  top: 19vw;
+  left: -2vw;
+  z-index: -1;
 }
 .anicon{
   position: absolute;
