@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+  
+    
+}
+.head{
+    background-image: url(./assests/main.png);
+
+
+
+}
+.og{
+    font-family: 'Anton';
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.bt{
+    border: 2px solid;
+    border-color: aquamarine;
+    padding: 20px;
+    margin-left: 28%;
+    width: 50%;
+}
+input[type=button]:hover{
+    background-color: aqua;
+    color: white;
+}
